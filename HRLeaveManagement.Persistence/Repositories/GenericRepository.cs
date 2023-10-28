@@ -11,7 +11,7 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
 
     public GenericRepository(HrDatabaseContext context )
     {
-        _context = context;
+        this._context = context;
     }
     public async Task<IReadOnlyList<T>> GetAsync()
     {

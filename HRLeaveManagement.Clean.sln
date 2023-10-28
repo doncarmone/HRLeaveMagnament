@@ -23,6 +23,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRLeaveManagement.Persisten
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRLeaveManagement.Infrastructure", "HRLeaveManagement.Infrastructure\HRLeaveManagement.Infrastructure.csproj", "{ADEEA94D-7AF9-4240-8502-E595B2C3A3A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRLeaveManagement.Api", "HRLeaveManagement.Api\HRLeaveManagement.Api.csproj", "{201ED692-8E23-4CBD-815D-3F230C5C1946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRLeaveManagement.Application.UnitTests", "HRLeaveManagement.Application.UnitTests\HRLeaveManagement.Application.UnitTests.csproj", "{166E6C9C-754F-4172-B1AD-B50FCA7CABE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRLeaveManagement.Persistance.Integration", "HRLeaveManagement.Persistance.Integration\HRLeaveManagement.Persistance.Integration.csproj", "{29951741-083D-4B69-934F-B00F3B1E82A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +51,18 @@ Global
 		{ADEEA94D-7AF9-4240-8502-E595B2C3A3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADEEA94D-7AF9-4240-8502-E595B2C3A3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADEEA94D-7AF9-4240-8502-E595B2C3A3A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{201ED692-8E23-4CBD-815D-3F230C5C1946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201ED692-8E23-4CBD-815D-3F230C5C1946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201ED692-8E23-4CBD-815D-3F230C5C1946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201ED692-8E23-4CBD-815D-3F230C5C1946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166E6C9C-754F-4172-B1AD-B50FCA7CABE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166E6C9C-754F-4172-B1AD-B50FCA7CABE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166E6C9C-754F-4172-B1AD-B50FCA7CABE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166E6C9C-754F-4172-B1AD-B50FCA7CABE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29951741-083D-4B69-934F-B00F3B1E82A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29951741-083D-4B69-934F-B00F3B1E82A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29951741-083D-4B69-934F-B00F3B1E82A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29951741-083D-4B69-934F-B00F3B1E82A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,5 +79,8 @@ Global
 		{FFB7AB21-19C3-40CD-B2A1-6B49FD7C7209} = {E52D638E-93B3-4D54-B359-12917AAE77D1}
 		{A6C76882-AE42-4F2F-B8AB-2A7DF80CBE71} = {31207BAE-450E-4802-9129-DC4D7697D9D6}
 		{ADEEA94D-7AF9-4240-8502-E595B2C3A3A0} = {31207BAE-450E-4802-9129-DC4D7697D9D6}
+		{201ED692-8E23-4CBD-815D-3F230C5C1946} = {4582A085-71F5-4310-938D-25E1E34198BA}
+		{166E6C9C-754F-4172-B1AD-B50FCA7CABE7} = {034B6EFB-DDB4-42E1-ACE8-8C2C9D007BE8}
+		{29951741-083D-4B69-934F-B00F3B1E82A5} = {034B6EFB-DDB4-42E1-ACE8-8C2C9D007BE8}
 	EndGlobalSection
 EndGlobal
